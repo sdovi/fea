@@ -1,0 +1,775 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto:wght@400;900&family=Unbounded:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto:wght@300;400;500;700&family=Unbounded:wght@800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: none;
+}
+
+.navbar-brand {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.navbar-brand p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #593F0D;
+    width: 240px;
+    margin: 0 !important;
+}
+
+.active-page {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #593F0D;
+}
+
+.phone {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    color: #593F0D;
+    margin: 0 !important;
+}
+
+.btn-outline-success {
+    color: black;
+    border-radius: 10px !important;
+    border: none !important;
+    background: linear-gradient(274.27deg, rgba(255, 255, 255, 0) -14.6%, rgba(255, 255, 255, 0.39) 39.52%, rgba(255, 255, 255, 0) 110.6%), linear-gradient(263.81deg, #FFC771 10.32%, #FFC858 98.17%);
+    box-shadow: inset 0px 2px 15px rgba(255, 255, 255, 0.41), inset 19px 0px 25px rgba(255, 255, 255, 0.11);
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #835D13;
+
+}
+
+.span-phone {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #593F0D;
+}
+
+/* .container {
+    width: 95% !important;
+    margin: 0 auto;
+} */
+
+.nav-teks {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background: url(/nav/ajy\ j\,o.png) no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.nav-object3 h1 {
+    font-family: 'Unbounded', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    color: #593F0D;
+
+}
+
+.header-txt h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #593F0D;
+
+}
+
+.pod {
+    font-family: 'Nunito', sans-serif;
+    color:
+        #FFC771;
+}
+
+.hr-txt {
+    line-height: 10vh;
+}
+
+.header-txt2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #593F0D;
+}
+
+.rass {
+    padding: 30px 45px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(274.27deg, rgba(255, 255, 255, 0) -14.6%, rgba(255, 255, 255, 0.39) 39.52%, rgba(255, 255, 255, 0) 110.6%), linear-gradient(263.81deg, #FFC771 10.32%, #FFC858 98.17%);
+    box-shadow: inset 0px 2px 15px rgba(255, 255, 255, 0.41), inset 19px 0px 25px rgba(255, 255, 255, 0.11);
+    background: linear-gradient(274.27deg, rgba(255, 255, 255, 0) -14.6%, rgba(255, 255, 255, 0.39) 39.52%, rgba(255, 255, 255, 0) 110.6%), linear-gradient(263.81deg, #FFC771 10.32%, #FFC858 98.17%);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.btn-rass {
+    line-height: 30px;
+}
+
+.nomer {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #593F0D;
+}
+
+.rabot h1 {
+    font-size: 20px;
+}
+
+.rabot p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #593F0D;
+
+}
+
+.txt-2015 {
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    width: 600px;
+}
+
+.span {
+    color: #FFC771;
+}
+
+.cards {
+    background: url(/card/Rectangle\ 113.png) no-repeat center center/cover;
+    height: 410px;
+    width: 100%;
+
+
+}
+
+.cardi-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards h1 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33.75px;
+    line-height: 41px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+.cards h2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.75px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #FFC771;
+
+
+}
+
+.cards {
+    align-items: center;
+    padding-top: 133px;
+}
+
+.cards p {
+    color: white;
+    text-align: center;
+    padding-top: 123px;
+}
+
+.cardi-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 22px;
+}
+
+.btn-card button {
+    border-radius: 20px;
+    padding: 32px 68px;
+    background: linear-gradient(263.81deg, #FFC771 10.32%, #FFC858 98.17%),
+        linear-gradient(274.27deg, rgba(255, 255, 255, 0) -14.6%, rgba(255, 255, 255, 0.39) 39.52%, rgba(255, 255, 255, 0) 110.6%);
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 23px;
+    /* identical to box height, or 192% */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #835D13;
+}
+
+.btn-card {
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+    padding-bottom: 91px;
+}
+
+.sect-2txt {
+    text-align: center;
+}
+
+
+.card-sect2-1 {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 320px;
+    height: 620px;
+
+}
+
+.card-sect2-1 img {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-sect2-1 h1 {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+
+    color: #593F0D;
+
+}
+
+.card-sect2-1 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #593F0D;
+}
+
+.ot {
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+
+    color: #593F0D;
+}
+
+.sect-2-txt {
+    padding-left: 25px;
+
+}
+
+.vibrat {
+    border-radius: 20px;
+    padding: 20px 100px;
+    background: linear-gradient(263.81deg, #FFC771 10.32%, #FFC858 98.17%),
+        linear-gradient(274.27deg, rgba(255, 255, 255, 0) -14.6%, rgba(255, 255, 255, 0.39) 39.52%, rgba(255, 255, 255, 0) 110.6%);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 23px;
+    /* identical to box height, or 192% */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #5e4411;
+
+}
+
+.sect2-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sect2-card button {
+    margin-top: 180px;
+
+
+}
+
+.sect-2-section {
+    margin-bottom: 30px;
+
+}
+
+.indi {
+    padding-top: 30px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #593F0D;
+    text-align: center;
+}
+
+.indi {
+    text-decoration: none;
+}
+
+.rasit {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #593F0D;
+}
+
+.rasit span {
+    color: #FFC858;
+
+
+}
+
+.crds {
+    height: 620px;
+    width: 320px;
+
+    border-radius: 10px;
+    background: #ebe8e8;
+    margin-bottom: 30px;
+
+}
+
+.crds img {
+    width: 100%;
+}
+
+.lev-sect-1 input {
+    padding: 15px;
+
+}
+
+.lev-sect-2 input {
+    padding: 15px;
+
+}
+
+.lev-sect-3 h3 {
+    font-size: 20px;
+
+}
+
+.opit {
+    width: 100%;
+    -webkit-box-shadow: 1px 9px 32px -1px rgba(34, 60, 80, 0.23);
+    -moz-box-shadow: 1px 9px 32px -1px rgba(34, 60, 80, 0.23);
+    box-shadow: 1px 9px 32px -1px rgba(34, 60, 80, 0.23);
+    display: flex;
+}
+
+.opit-txt h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+
+    color: #593F0D;
+
+}
+
+.opit-txt p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #593F0D;
+
+}
+
+.undi {
+    margin-top: 20px;
+}
+.mishka{
+    margin-top: 56px;
+}
+.fon-ocruglen{
+    background: url(./bg/bg.png) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ocrug-txt-lev p{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #593F0D;
+}
+.ocruc-p p{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #593F0D;
+
+}
+.ocruc-p{
+    padding-left: 20px;
+}
+.ocrug-txt-prav{
+    background: white;
+    width: 100%;
+    height: 476px;
+    border-radius: 10px;
+}
+.ocrug-text{
+    color: #593F0D;
+    font-weight: 90px;
+    width: 340px;
+
+}
+.ocrug-txt-lev{
+    display: flex;
+}
+.ocrug-txt-prav{
+    padding: 32px;
+}
+.input-group{
+    outline: none   ;
+}
+.hr-int{
+    padding-top: 32px;
+    
+}
+.obsiy{
+    display: flex;
+    justify-content: center;
+}
+.input-prav{
+    height: 50px;
+}
+.shag5{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 74px; */
+}
+.list-1 img{
+    width: 100px;
+
+}
+.list-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 724px;
+    gap: 25px;
+}
+
+.btn-card2 button{
+    border-radius: 20px;
+    padding: 32px 68px;
+    background: linear-gradient(263.81deg, #FFC771 10.32%, #FFC858 98.17%),
+        linear-gradient(274.27deg, rgba(255, 255, 255, 0) -14.6%, rgba(255, 255, 255, 0.39) 39.52%, rgba(255, 255, 255, 0) 110.6%);
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 23px;
+    /* identical to box height, or 192% */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #835D13;
+}
+.btn-card2{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.obsh-list{
+    margin-top: 50px;
+}
+.logo-text h1{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #593F0D;
+    
+}
+
+.logo-text p{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+margin-top: 8px;
+
+color: #593F0D;
+}
+.logo-img{
+    align-items: center;
+    text-align: center;
+}
+.sect-logo{
+    margin-top: 50px;
+}
+
+.logo-sect{
+    margin-top: 100px;
+}
+.sadolin{
+    text-align: center;
+    margin-top: 50px;
+}
+.vopros-text{
+    text-align: center;
+ 
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height */
+
+text-align: center;
+
+color: #593F0D;
+}
+.voptos-text-2{
+
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #593F0D;
+}
+.voptos-text-2{
+    margin-top: 10px;
+    padding-left: 90px;
+    padding-top: 30px;
+}
+.kontakt{
+    padding-top: 40px;
+    padding-left: 40px;
+
+    
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+/* or 111% */
+
+letter-spacing: 0.01em;
+
+color: #593F0D;
+}
+.block-footer{
+    width: 1160px;
+    height: 512px;
+   
+
+}
+.email{
+    padding-left: 40px;
+}
+.telefon{
+    padding-left: 40px;
+    
+}
+.grafik{
+    padding-left: 40px;
+
+}
+.email h1{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    /* identical to box height, or 160% */
+    
+    
+    color: #FFC858;  
+
+}
+.email p{
+   
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 40px;
+/* identical to box height, or 182% */
+
+text-decoration-line: underline;
+
+color: #5A5859;
+}
+.telefon h1{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    /* identical to box height, or 160% */
+    
+    
+    color: #FFC858;
+}
+.telefon p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    
+    color: #5A5859;
+}
+.grafik h1{
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    /* identical to box height, or 160% */
+    
+    
+    color: #FFC858;
+    
+}
+.grafik p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    
+    color: #5A5859;
+}
+.block-footer{
+    -webkit-box-shadow: 6px 12px 36px 9px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 6px 12px 36px 9px rgba(34, 60, 80, 0.2);
+box-shadow: 6px 12px 36px 9px rgba(34, 60, 80, 0.2);
+display: flex;
+margin-top: 130px;
+
+
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    padding: 51px 60px;
+    padding-left: 140px;
+}
+.voprosi{
+    margin-top: 50px;
+}
+.crds{
+    margin: auto;
